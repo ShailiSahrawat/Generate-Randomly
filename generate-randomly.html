@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"/> 
+
+<!-- Loading Icons From Font Awesome -->
+<link rel="stylesheet"
+    href= 
+"https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity= 
+"sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"> 
+
+
+<!-- Loading Roboto Font from Google Fonts -->
+<link href= 
+"https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Loading Open Sans Font from Google Fonts -->
+<link href= 
+"https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="joke-css/quotes.css"/> 
+    <title>Generate Randomly</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <style>
+        @media only screen and (max-width:900px) {
+            #footer{
+            position: absolute;
+            bottom: 0;
+        }
+        }
+        #footer{
+            position:absolute;
+            bottom: 0;
+        }
+        .home-btn{
+	border-radius: 5px; 
+	cursor:pointer;
+	background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8); 
+        }
+        .home-btn:hover{
+          opacity: 0.6; 
+        }
+    </style>
+
+</head>
+<body id="body">
+    <header class="w-full text-gray-400 bg-pink-950 body-font  justify-center text-center">
+        <div class="container flex flex-wrap p-5 flex-col md:flex-row items-center justify-center text-center ">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto justify-center text-center mx-auto mt-3 mb-3">
+            <a href="/"  class="lg:mr-20 mr-10 text-white text-3xl" >Home</a>
+            <a href="/jokes.html" class="lg:mr-20 mr-10 text-white text-3xl">Jokes</a>
+            <a href="/quotes.html" class="lg:mr-20 mr-10 text-white text-3xl">Quotes</a>
+            <a href="/joke-contact.html" class="text-white text-3xl">Contact</a>
+          </nav>
+
+        </div>
+      </header>
+   
+    <!-- component -->
+<div class=" mx-auto p-4  flex items-center justify-center ">
+    <div class=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:flex items-center lg:justify-center sm:grid">
+       
+
+        <!-- Blog Entry 2 -->
+        <div class="max-w-sm mx-7 lg:mx-20 relative shadow-md rounded-lg cursor-pointer">
+          <img src="joke-logo.png" alt="Img by Meriç Dağlı https://unsplash.com/@meric" class="w-full h-auto object-cover rounded-lg mb-10">
+          <div class="absolute bottom-0 left-0 right-0 h-17 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+            <button onclick="location.href='/jokes.html'" class="home-btn rounded-xl w-3/4 p-3 mx-12 ">Generate random joke</button>
+          </div>
+          
+        </div>
+
+        <!-- Blog Entry 3 -->
+        <div class="max-w-sm mx-7 lg:mx-20 relative shadow-md rounded-lg cursor-pointer">
+          <img src="quotes-logo.png" alt="Img by Meriç Dağlı https://unsplash.com/@meric" class="w-full h-auto object-cover rounded-lg mb-10">
+          <div class="absolute bottom-0 left-0 right-0 h-17 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+            <button onclick="location.href='/quotes.html'"  class="home-btn rounded-xl w-3/4 p-3 mx-12">Generate random quote</button>
+          </div>
+          
+        </div>
+    </div>
+</div>
+<section id="footer" class="bg-pink-950">
+	<div class="main-footer">
+	 
+	
+	
+  <footer>© Your Copyright 2023 All Rights Reserved - @shailisahrawat</footer>
+  </section>
+
+
+</body>
+</html>
